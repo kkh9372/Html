@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>글목록</title>
+    <link rel="strylesheet" href="./css/style.css"/>
+    <style>
+        #board.list{}
+        #board.list > h3{}
+        #board.list > article {}
+        #board.list > article > p {}
+        #board.list > article > table {}
+        #board.list > article > table tr{}
+        #board.list > article > table tr > td {}
+
+        #board.list > .paging {}
+        #board.list > .paging >a {}
+        #board.list > .paging > .num {}
+        #board.list > .paging > .current {}
+        #board.list > .paging > .prev {}
+        #board.list > .paging > .next {}
+        #board.list > .paging > .btnwrite {}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <section id="board" class="list">
+            <h3>글목록</h3>
+            <article>
+                <p>
+                    홍길동님 반갑습니다.
+                    <a href="#" class="logout">[로그아웃]</a>
+                </p>
+                <table border="1">
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>글쓴이</th>
+                        <th>날짜</th>
+                        <th>조회</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th><a href="#">테스트 제목입니다.</a>&nbsp;[3]</th>
+                        <th>길동이</th>
+                        <th>21-08-10</th>
+                        <th>12</th>
+                    </tr>
+                </table>
+            </article>
+            <!-- 페이지 번호 -->
+            <div class="paging">
+                <a href="#" class="prev">이전</a>
+                <a href="#" class="num current">1</a>
+                <a href="#" class="num">2</a>
+                <a href="#" class="num">3</a>
+                <a href="#" class="next">다음</a>
+            </div>
+
+            <!-- 글쓰기 버튼 -->
+            <a href="./write.html" class="btnwrite">글쓰기</a>
+
+        </section>
+    </div>
+    
+</body>
+</html>

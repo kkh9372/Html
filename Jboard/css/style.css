@@ -1,0 +1,54 @@
+ /*초기화*/
+ *{
+    margin: 0;
+    padding: 0;
+    font: normal 12px '돋움';
+}
+
+ul, ol {list-style: none;}
+a {text-decoration: none; color: #111;}
+input, textarea{outline: none;}
+
+/*회원-로그인*/
+#user {}
+#user.login {
+    width: 360px;
+    height: auto;
+    margin: 100px auto;
+}
+#user.login > form  {
+    position: relative;
+    padding: 20px 20px 20px 50px;
+    border: 1px solid #cfded8;
+}
+#user.login > form > table {}
+#user.login > form > table img {width: 20px;}
+#user.login > form > table input {
+    width: 20px;
+    height: 22px;
+    border: 1px solid #e4eaec;
+    background: #f7f7f7;
+    margin-bottom: 5px;
+}
+#user.login > form > table td {}
+#user.login > form > input[type=submit] {}
+
+#user.login > .info {
+    border: 1px solid #cfded8;
+    border-top: 0px;
+    background: #f5f6fa;
+    padding: 20px;
+}
+#user.login > .info >p {
+        padding: 10px 0;
+}
+#user.login > .info >a {
+        float: right;
+}
+
+/*회원-약관*/
+/*회원-회원가입*/
+/*게시판-목록*/
+/*게시판-글쓰기*/
+/*게시판-글보기*/
+/*게시판-글수정*/
