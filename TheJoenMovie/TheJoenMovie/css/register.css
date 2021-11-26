@@ -1,0 +1,169 @@
+/* 회원-약관 */
+.terms {
+    width: 800px;
+    margin: 500px auto;          
+}
+.terms > table {
+    width: 100%;
+    height: 20%;
+    border-top: 2px solid ivory;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.terms > table > caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0;
+    color: ivory;
+    font-size: 36px;
+}
+.terms > table tr {
+}
+
+.terms > table tr > td {
+    height: 100%;
+    padding: 6px 10px;
+    border: 1px solid #e9e9e9;
+}
+
+.terms > table textarea {
+    width: 100%;
+    height: 320px;
+    resize: none;
+    border: 1px solid #e4eaec;
+    background: #f7f7f7;
+    font-size: 24px;
+    color: #111;
+    padding: 2px;
+}
+.terms > table p {
+    float: right;
+    color: ivory;
+}
+.terms > table p > label {
+    color: ivory;
+    font-size: 28px;
+}
+.terms > table p > label > input {
+    left: 100px;
+}
+.terms > table p > label > span {
+    color: red;
+    font-size: 28px;
+}
+.terms > table p > input {
+    
+    transform : scale(2);
+}
+.terms > div {
+    padding: 50px 0;
+    text-align: right;
+}
+.terms > div > a {
+    padding: 10px;
+    border: 1px solid ivory;
+    color: ivory;
+}
+
+
+
+/* 회원-회원가입 */
+.register {
+    border: 100px;
+    padding: 500px;
+    width: 600px;
+    margin: 20px auto;            
+}
+
+.register table {
+    height: 280px;
+    width: 700px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+}
+.register table caption {
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: left;
+    color: ivory;
+    font-size: 50px;
+}
+.register table tr {
+    font-style: italic;
+    font-weight: bold;
+}
+.register table td {
+    padding: 6px 12px;
+    border: 1px solid #e9e9e9;
+    font-size: 20px;
+    background-color: gray;
+}
+
+.register table td:nth-child(1) {
+    width: 80px;
+    background: #f5f8f9;
+}
+
+.register table input {
+    width: 340px;
+    height: 40px;
+    background: #f7f7f7;
+    border: 1px solid #e4eaec;
+    text-indent: 6px;
+    font-size: 30px;
+}
+.register table input td > input {
+    color: ivory;
+}
+.register-path > li > h1{
+    margin:5px auto;
+    float: left;
+    margin-left:4px;
+    font-size: 20px;
+}
+.register-path > li > input[name="search"]{
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    float: left;
+    margin: 6px;
+    margin-top: 8px;
+}
+.register table span {}
+
+.register table div {
+    margin-bottom: 2px;
+}
+.register table div:nth-child(1) > input {width:  10px;}
+.register table div:nth-child(2) > input {width: 320px;}
+.register table div:nth-child(3) > input {width: 320px;}
+
+.register table div > button {
+    padding: 4px 13px;
+    border: 1px solid #bebebe;
+    background: #e9e9e9;
+    color: #111;
+}
+
+.register > form > div {            
+    text-align: right;
+}
+.register > form > div > .btnCancel {
+    padding: 10px;
+    border: 1px solid #bebebe;
+    background: #fdfdfd;
+    color: #111;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
+.register > form > div > .btnJoin {
+    padding: 10px;
+    border: 1px solid #bebebe;
+    background: #e9e9e9;
+    color: #111;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
